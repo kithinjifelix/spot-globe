@@ -4,7 +4,7 @@ import { Controller, Get, Logger, Res } from '@nestjs/common';
 export class AppController {
   @Get()
   getAppName(): string {
-    return 'dwapi Globe';
+    return 'dwapi Globe build v02MAR201238';
   }
   @Get('globe')
   getLib(@Res() res): string {
