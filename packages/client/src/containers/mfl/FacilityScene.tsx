@@ -25,10 +25,10 @@ interface State {
   filter: any;
 }
 
-const url = `https://${window.location.hostname}:4710/api/v1/practices/facilities`;
-const countiesUrl = `https://${window.location.hostname}:4710/api/v1/locations/`;
-const mechanismsUrl = `https://${window.location.hostname}:4710/api/v1/practices/mechanisms/`;
-const facUrlCount = `https://${window.location.hostname}:4710/api/v1/practices/facilities/count`;
+const url = `https://${window.location.hostname}:4701/api/v1/practices/facilities`;
+const countiesUrl = `https://${window.location.hostname}:4701/api/v1/locations/`;
+const mechanismsUrl = `https://${window.location.hostname}:4701/api/v1/practices/mechanisms/`;
+const facUrlCount = `https://${window.location.hostname}:4701/api/v1/practices/facilities/count`;
 
 export class FacilityScene extends Component<{}, State> {
   private messages: any;
